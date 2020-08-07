@@ -52,7 +52,6 @@ choco install -y vcredist140
 choco install -y steam
 choco install -y git
 choco install -y curl
-choco install -y dropbox
 choco install -y vcredist2013
 choco install -y procexp
 choco install -y youtube-dl
