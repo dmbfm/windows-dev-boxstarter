@@ -1,3 +1,4 @@
+
 # Description: Boxstarter Script
 # Author: Microsoft
 # Common dev settings for machine learning using only Windows native tools
@@ -18,7 +19,7 @@ write-host "helper script base URI is $helperUri"
 function executeScript {
     Param ([string]$script)
     write-host "executing $helperUri/$script ..."
-	iex ((new-object net.webclient).DownloadString("$helperUri/$script"))
+    iex ((new-object net.webclient).DownloadString("$helperUri/$script"))
 }
 
 #--- Setting up Windows ---
